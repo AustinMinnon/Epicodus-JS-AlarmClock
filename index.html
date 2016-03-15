@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Alarm Clock</title>
+  </head>
+  <body>
+    <h3>Alarm Clock</h3>
+    <h3 id="clock"></h3>
+    <form id="alarm">
+      <div class="form-group">
+        <label for="hour">Hour(h):</label>
+        <input type="text" id="hour" name="hour">
+        <label for="minute">Minute(mm):</label>
+        <input type="text" id="minute" name="minute">
+        <select class="ampm" name="ampm">
+        <option value="am">am</option>
+        <option value="pm">pm</option>
+        </select>
+        <button class="btn btn-success" type="submit">Set Alarm</button>
+      </div>
+    </form>
+  </body>
+</html>
